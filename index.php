@@ -1,7 +1,7 @@
 <html>
 <!--
- /$$$$$$$$                                      /$$$$$$$$                           
-|__  $$__/                                     | $$_____/                           
+ /$$$$$$$$                                      /$$$$$$$$
+|__  $$__/                                     | $$_____/
    | $$  /$$$$$$   /$$$$$$  /$$$$$$/$$$$       | $$    /$$   /$$  /$$$$$$  /$$   /$$
    | $$ /$$__  $$ |____  $$| $$_  $$_  $$      | $$$$$| $$  | $$ /$$__  $$| $$  | $$
    | $$| $$$$$$$$  /$$$$$$$| $$ \ $$ \ $$      | $$__/| $$  | $$| $$  \__/| $$  | $$
@@ -10,12 +10,14 @@
    |__/ \_______/ \_______/|__/ |__/ |__/      |__/    \______/ |__/       \____  $$
                                                                            /$$  | $$
                                                                           |  $$$$$$/
-                                                                           \______/ 
+                                                                           \______/
 -->
 <head>
 <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<title>Homepage</title>
+</head>
 <style>
 h1 {
 	font-family: 'Audiowide', serif;
@@ -99,7 +101,7 @@ form {
 	<p>Our Members</p>
 	<ul class="font">
 		<li>Martin Blue</li>
-		<li>Indra Gottiveeti</li> 
+		<li>Indra Gottiveeti</li>
 		<li>AJ Valentino</li>
 		<li>Pranav Swarna</li>
 		<li>Ahobil Thuppal</li>
@@ -142,7 +144,10 @@ form {
 		<li>Physically Building the Robot</li>
 	</ul>
 </div>
-</body></html><?php
+
+</body>
+</html>
+<?php
 
 if(isset($_POST[elect])) {
 	header("location:elections.php");
