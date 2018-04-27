@@ -1,0 +1,62 @@
+h1 {
+	font-family: 'Audiowide', serif;
+}
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+	text-align: center;
+}
+p {
+	font-family: 'Alfa Slab One', serif;
+	color: #ff5722;
+	font-size: 30px;
+}
+ul {
+	color: #666666;
+	font-size: 20px;
+	font-family: 'Montserrat', serif;
+}
+.border {
+	margin-left: 100px;
+	margin-right: 100px;
+	padding: 50;
+	padding-top: 15;
+	background-color: E1E1E1;
+	border-style: solid;
+	border-color: 2d5ca9;
+}
+.tabArea {
+	margin-top: 50px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+.tabArea input {
+    width: 33.333333%;
+    float: left;
+	height: 55px;
+	font-family: 'Audiowide', serif;
+	font-size: 30px;
+	background-color: 4285f4;
+	border-style: solid;
+	border-color: 2d5ca9;
+	cursor:pointer;
+}
+form {
+	margin-bottom: 0px;
+}
+.clearFix{
+    clear:both
+}
+.first {
+	border-width: 6px 3px 6px 6px;
+	border-top-left-radius: 10px
+}
+.mid {
+	border-width: 6px 3px 6px 3px;
+}
+.last {
+	border-width: 6px 6px 6px 3px;
+	border-top-right-radius: 10px
+}
