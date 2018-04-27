@@ -39,7 +39,7 @@ h1 {
 	padding: 50;
 	padding-top: 15;
 	padding-bottom: 15;
-	background-color: efefef;
+	background-color: E1E1E1;
 	text-align: center;
 	font-family: 'Audiowide', sans-serif;
 	font-size: 17px;
@@ -104,7 +104,7 @@ form {
 	padding: 50;
 	padding-top: 50;
 	padding-bottom: 15;
-	background-color: efefef;
+	background-color: E1E1E1;
 	border-style: solid;
 	border-color: 2d5ca9;
 	border-width: 0px 3px 3px 3px;
@@ -180,10 +180,10 @@ function displayPage (name) {
 </script>
 </body></html><?php
 
-if(isset($_POST[elect])) {
-	header("location:elections.php");
+if(isset($_POST['home'])) {
+	header("location:index.php");
 }
-if(isset($_POST[contact])) {
+if(isset($_POST['contact'])) {
 	echo '<script>alert("This section is under construction. Contact us at sihsteamfury@gmail.com");</script>';
 }
 ?>
