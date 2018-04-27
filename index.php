@@ -92,10 +92,10 @@
 
 <?php
 
-if(isset($_POST[elect])) {
+if(isset($_POST['elect'])) {
 	header("location:elections.php");
 }
-if(isset($_POST[contact])) {
+if(isset($_POST['contact'])) {
 	echo '<script>alert("This section is under construction. Contact us at sihsteamfury@gmail.com");</script>';
 }
 ?>
