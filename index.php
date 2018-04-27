@@ -16,7 +16,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-	<title>Homepage</title>
+	<title>Home</title>
 	<link rel="stylesheet" type="text/css" href="main.css">
 </head>
 
