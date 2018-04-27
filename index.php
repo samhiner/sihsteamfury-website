@@ -55,7 +55,7 @@
 		<ul>
 			<li>Operates FIRST Robotics Competition</li>
 			<li>Real world engineering</li>
-			<li><a href="https://www.firstinspires.org/robotics/ftc">FIRST Website</a></li>
+			<li><a href="https://www.firstinspires.org/robotics/ftc" target="_blank">FIRST Website</a></li>
 		</ul>
 
 		<p>Software Development Team</p>
