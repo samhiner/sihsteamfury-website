@@ -20,7 +20,7 @@
 <h3>Add image:</h3>
 <form method='post'>
 	Your Code: <br><input type='text' name='code'><br><br>
-	Image: <br><input type='text' name='image'><br><br>
+	Image: <br><input type='text' name='pic'><br><br>
 	<input type='submit' value='Submit' name='image'>
 </form><br>
 
@@ -67,4 +67,14 @@ if(isset($_POST['text'])){
 		echo $append;
 	}
 }
+
+if(isset($_POST['image'])) {
+	$pic = $_POST['pic'];
+	$code = $_POST['code'] . ".php";
+	$append = "<img src='images/$pic' width='700' class='center'>";  
+	$file = fopen($code,'a');
+	fwrite($file, $append);
+	fclose($file);
+}
+
 ?>

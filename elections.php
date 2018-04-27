@@ -145,17 +145,17 @@ form {
 	</div>
 	<div id='hiner' class='view'>
 		<div class='space'>
-			<?php echo 'hi'; //include('hiner.php') ?>
+			<?php include 'hiner4.php'; ?>
 		</div>
 	</div>
 	<div id='swarna' class='view'>
 		<div class='space'>
-			<p class='center'>This placeholder page is courtesy of the Sam Hiner for Engineering Chair Foundation. It will be replaced with Pranav Swarna's campgain once he uses the Hiner Website Building Tool™ to create his page.</p>
+			<?php include 'swarna7.php'; ?>
 		</div>
 	</div>
 	<div id='valentino' class='view'>
 		<div class='space'>
-			<p class='center'>This placeholder page is courtesy of the Sam Hiner for Engineering Chair Foundation. It will be replaced with AJ Valentino's campgain once he uses the Hiner Website Building Tool™ to create his page.
+			<?php include 'valentino10.php'; ?>
 		</div>
 	</div>
 </div>
