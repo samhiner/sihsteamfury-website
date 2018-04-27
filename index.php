@@ -38,19 +38,63 @@ ul {
 	font-family: 'Montserrat', serif;
 }
 .border {
-	margin-top: 50px;
 	margin-left: 100px;
 	margin-right: 100px;
 	padding: 50;
 	padding-top: 15;
 	background-color: E1E1E1;
+	border-style: solid;
+	border-color: 2d5ca9;
+}
+.tabArea {
+	margin-top: 50px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+.tabArea input {
+    width: 33.333333%;
+    float: left;
+	height: 55px;
+	font-family: 'Audiowide', serif;
+	font-size: 30px;
+	background-color: 4285f4;
+	border-style: solid;
+	border-color: 2d5ca9;
+	cursor:pointer;
+}
+form {
+	margin-bottom: 0px;
+}
+.clearFix{
+    clear:both
+}
+.first {
+	border-width: 6px 3px 6px 6px;
+	border-top-left-radius: 10px
+}
+.mid {
+	border-width: 6px 3px 6px 3px;
+}
+.last {
+	border-width: 6px 6px 6px 3px;
+	border-top-right-radius: 10px
 }
 </style></head><body>
 
 <div class='center'>
 	<h1>SIHS Team Fury</h1>
-	<img src='images/teamfurylogo.png' alt='SIHS Team Fury Logo' width='337' height='200' class='imgCenter'>
+	<img src='images/teamfurylogo.png' alt='SIHS Team Fury Logo' width='337' height='200'>
 </div>
+
+<div class='tabArea'>
+	<form method='post'>
+		<input type='submit' value='Home' name='home' class='first'>
+		<input type='submit' value='Elections' name='elect' class='mid'>
+		<input type='submit' value='Contact Us' name='contact' class='last'>
+	</form>
+	<div class="clearFix"></div>
+</div>
+
 <div class='border'>
 	<p>Our Members</p>
 	<ul class="font">
@@ -98,4 +142,12 @@ ul {
 		<li>Physically Building the Robot</li>
 	</ul>
 </div>
-</body></html>
+</body></html><?php
+
+if(isset($_POST[elect])) {
+	header("location:elections.php");
+}
+if(isset($_POST[contact])) {
+	echo '<script>alert("This section is under construction. Contact us at sihsteamfury@gmail.com");</script>';
+}
+?>
