@@ -13,10 +13,8 @@
                                                                            \______/
 -->
 <head>
-	<link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-	<title>Home</title>
+	<link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Audiowide|Montserrat" rel="stylesheet">
+	<title>SIHS Team Fury</title>
 	<link rel="stylesheet" type="text/css" href="main.css">
 </head>
 
@@ -27,11 +25,8 @@
 	</div>
 
 	<div class='tabArea'>
-		<form method='post'>
-			<input type='submit' value='Home' name='home' class='first'>
-			<input type='submit' value='Elections' name='elect' class='mid'>
-			<input type='submit' value='Contact Us' name='contact' class='last'>
-		</form>
+		<a href=''><input type='submit' value='Home' name='home' class='first'></a>
+		<input type='submit' value='Contact Us' name='contact' class='last' onclick='construction()'>
 		<div class="clearFix"></div>
 	</div>
 
@@ -87,15 +82,11 @@
 			<li>Physically Building the Robot</li>
 		</ul>
 	</div>
+
+	<script>
+		function construction() {
+			alert("This section is under construction. Contact us at sihsteamfury@gmail.com");
+		}
+	</script>
 </body>
 </html>
-
-<?php
-
-if(isset($_POST['elect'])) {
-	header("location:elections.php");
-}
-if(isset($_POST['contact'])) {
-	echo '<script>alert("This section is under construction. Contact us at sihsteamfury@gmail.com");</script>';
-}
-?>

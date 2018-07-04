@@ -23,9 +23,9 @@ ul {
 	margin-right: 100px;
 	padding: 50;
 	padding-top: 15;
-	background-color: E1E1E1;
+	background-color: #E1E1E1;
 	border-style: solid;
-	border-color: 2d5ca9;
+	border-color: #2d5ca9;
 }
 .tabArea {
 	margin-top: 50px;
@@ -33,7 +33,7 @@ ul {
 	margin-right: 100px;
 }
 .tabArea input {
-    width: 33.333333%;
+    width: 50%;
     float: left;
 	height: 55px;
 	font-family: 'Audiowide', serif;
